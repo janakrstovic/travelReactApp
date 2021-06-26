@@ -6,11 +6,13 @@ import Showcase from './components/Showcase';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Destinations from './components/Destinations';
+import Error from './components/Error';
 
 function App() {
   return (
-    <Router>
+  <Router>
    <Header />
+   <Switch>
     <Route exact path="/">
     <Showcase/>
     <Destinations/>
@@ -23,9 +25,13 @@ function App() {
     <Route path="/signup">
     <SignUp/>
     </Route>
-     
+
+    <Route path="*">
+    <Error/>
+    </Route>
+    </Switch>
     <Footer/> 
-    </Router>
+  </Router>
   );
 }
 

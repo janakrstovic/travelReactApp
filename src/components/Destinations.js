@@ -1,7 +1,7 @@
 import React from 'react'
-import slika1 from '../fotografije/slika1.jpg'
-import slika4 from '../fotografije/slika4.jpg'
-import slika3 from '../fotografije/slika3.jpg'
+import bali from '../fotografije/bali.jpg'
+import maldivi from '../fotografije/maldivi.jpg'
+import borabora from '../fotografije/borabora.jpg'
 
 const Destinations = () => {
     return (
@@ -11,21 +11,21 @@ const Destinations = () => {
 
               <div className="grid-items">
                   <div>
-                      <img src={slika1} alt=""/>
+                      <img src={bali} alt=""/>
                       <h4>Fly to Bali</h4>
-                      <p>Most beautiful countires of the world</p>
+                      <p>Most beautiful countries of the world</p>
                   </div>
 
                   <div>
-                      <img src={slika4} alt=""/>
+                      <img src={maldivi} alt=""/>
                       <h4>Visit Maldives</h4>
-                      <p>Most beautiful countires of the world</p>
+                      <p>Explore real mother nature</p>
                   </div>
 
                   <div>
-                      <img src={slika3} alt=""/>
+                      <img src={borabora} alt=""/>
                       <h4>Explore Bora Bora</h4>
-                      <p>Most beautiful countires of the world</p>
+                      <p>Feel the freedom</p>
                   </div>
 
               </div>

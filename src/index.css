@@ -23,7 +23,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #16212d;
+  background-color: #2c7f86;
 }
 
 .header .links {
@@ -84,7 +84,7 @@ border-radius: 10px;
 }
 
 .footer{
-  background-color: #333;
+  background-color:#2c7f86 ;
   padding: 30px;
   display: flex;
   align-items: center;
@@ -129,8 +129,8 @@ border-radius: 10px;
   }
 
   .grid .grid-items div img{
-    height: 150px;
-    width: 300px;
+    height: 200px;
+    width: 400px;
   }
   .login .form-control input {
     width: 50vw;
@@ -139,10 +139,6 @@ border-radius: 10px;
 }
 
 @media (min-width: 992px) {
-  .showcase {
-    background-position: top;
-    
-  }
 
   .grid .grid-items{
     grid-template-columns:repeat(3, lfr);

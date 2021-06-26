@@ -4,7 +4,7 @@ const SignUp = () => {
   return (
     <>
       <section className='showcase login'>
-        <div className='showcase-overlay'>
+        <div className='overlay'>
           <form className='form-control'>
             <input
               type='text'
