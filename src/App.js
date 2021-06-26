@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Showcase from './components/Showcase';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Destinations from './components/Destinations';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
    <Header />
     <Route exact path="/">
     <Showcase/>
-    {/* <Destinations/>*/}
+    <Destinations/>
     </Route>
 
     <Route path="/login">

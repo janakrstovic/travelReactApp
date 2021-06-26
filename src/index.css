@@ -53,3 +53,97 @@ body {
   font-size: 36px;
   padding-bottom: 20px;
 }
+
+.grid{
+ padding: 50px;
+ text-align: center;
+ font-size: 30px;
+ color: purple;
+ padding-bottom: 20px;
+
+}
+
+.grid .grid-items div{
+background-color: #f1f1f1;
+margin: 20px 0;
+padding: 20px;
+border-radius: 10px;
+}
+
+.grid .grid-items div h4{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.grid .grid-items div p{
+  line-height: 1.8;
+
+}
+.grid .grid-items div img{
+  border-radius: 10px;
+}
+
+.footer{
+  background-color: #333;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer ul li{
+  margin: 10px 0;
+
+}
+
+.footer ul li button{
+  background-color:  transparent;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-family:inherit;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+
+}
+.footer ul li button:hover{
+  background-color: pink;
+}
+
+@media (min-width: 768px){
+  .showcase .overlay h1{
+    font-size: 64px;
+  }
+
+  .showcase .overlay p{
+    font-size: 22px;
+  }
+
+  .grid .grid-items {
+    display: grid;
+    grid-template-columns: repeat(3,lfr);
+    gap: 30px;
+  }
+
+  .grid .grid-items div img{
+    height: 150px;
+    width: 300px;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  .showcase {
+    background-position: top;
+    
+  }
+
+  .grid .grid-items{
+    grid-template-columns:repeat(3, lfr);
+    text-align: center;
+  }
+}
