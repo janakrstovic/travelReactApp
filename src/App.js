@@ -10,16 +10,16 @@ function App() {
   return (
     <Router>
    <Header />
-    <Route exact to="/">
+    <Route exact path="/">
     <Showcase/>
     {/* <Destinations/>*/}
     </Route>
 
-    <Route to="/login">
+    <Route path="/login">
     <Login/>
     </Route>
 
-    <Route to="/signup">
+    <Route path="/signup">
     <SignUp/>
     </Route>
      
