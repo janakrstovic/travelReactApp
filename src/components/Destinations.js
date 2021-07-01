@@ -7,7 +7,7 @@ const Destinations = () => {
     return (
         <>
           <section className="grid">
-              <h3>We are currently in 46 countires</h3>
+              <h3>You are as rich as you have traveled! Become a millionaire!</h3>
 
               <div className="grid-items">
                   <div>
