@@ -203,9 +203,10 @@ h3 {
     display: flex;
     flex-direction: row;
     background: url(./fotografije/okean1.jpg);
-    background-repeat: repeat-x;
+    background-repeat: initial;
     align-items: center;
     justify-content: center;
+    height: 700px;
    }
     .trips-count .content {
       width: 60%;
@@ -239,7 +240,7 @@ h3 {
         width: 320px; 
       }
        .trips-count .content .goal .progress {
-          height: 0.5em;
+          height: 14px;
           margin: 0.5em;
           background-color: rgb(147, 196, 12);
           display: inline-block; 
@@ -251,7 +252,8 @@ h3 {
     background-repeat: repeat-x;
     flex-direction: row;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    height: 700px;
   }
     .form-container .form {
       display: flex;
@@ -305,6 +307,7 @@ h3 {
     background: url(./fotografije/okean1.jpg);
     background-repeat: repeat-x;
     font-size: 20px;
+    height: 700px;
    }
     .trips-list h3 {
       margin-top: 0;
