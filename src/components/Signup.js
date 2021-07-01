@@ -1,6 +1,9 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
 
 const SignUp = () => {
+  const history = useHistory();
+    const handleClick = () => history.push('/login');
   return (
     <>
       <section className='showcase login'>
@@ -32,7 +35,7 @@ const SignUp = () => {
               id='password2'
               placeholder='Confirm your password'
             />
-            <button type='submit'>Create Your Account</button>
+            <button type='submit' onClick={handleClick}>Create Your Account</button>
           </form>
         </div>
       </section>

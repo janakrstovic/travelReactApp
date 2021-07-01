@@ -185,3 +185,157 @@ border-radius: 10px;
 .login .form-control button:hover {
   background-color: transparent;
 }
+
+ .trips-list .filters a {
+  text-decoration: none;
+  color: #f0f0f0; }
+  .route-container .nav a:hover, .route-container .trips-list .filters a:hover {
+    color: white; }
+
+h3 {
+  font-size: 48px; 
+  align-items: center;
+}
+
+  .trips-count {
+    flex: auto;
+    color: rgb(179, 168, 168);
+    display: flex;
+    flex-direction: row;
+    background: url(./fotografije/okean1.jpg);
+    background-repeat: repeat-x;
+    align-items: center;
+    justify-content: center;
+   }
+    .trips-count .content {
+      width: 60%;
+      margin: 0 auto;
+      color: black;
+      display: grid;
+      grid-template-areas: 'total total total' 'tropic trek club' 'goal goal goal';
+      grid-row-gap: 5em;
+      text-align: center;
+     }
+     .trips-count .content .total {
+        grid-area: total;
+       }
+      .trips-count .content .tropic {
+        grid-area: tropic; 
+      }
+     .trips-count .content .trek {
+        grid-area: trek; 
+    }
+     .trips-count .content .club {
+        grid-area: club;
+       }
+      .trips-count .content .tropic,.trips-count .content .trek, .trips-count .content .club {
+        font-size: 24px; 
+      }
+      .trips-count .content .goal {
+        grid-area: goal;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 320px; 
+      }
+       .trips-count .content .goal .progress {
+          height: 0.5em;
+          margin: 0.5em;
+          background-color: rgb(147, 196, 12);
+          display: inline-block; 
+        }
+   .form-container {
+    flex: auto;
+    display: flex;
+    background: url(./fotografije/okean1.jpg);
+    background-repeat: repeat-x;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+  }
+    .form-container .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: black; 
+    }
+      .form-container .form label {
+        width: 320px;
+       }
+
+       .form-container .h3{
+         text-align: center;
+       }
+     .form-container .form input[type=text],  .form-container .form input[type=date],
+      .form-container .form select {
+        width: 320px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 3px solid black;
+        color: black;
+        background: whitesmoke;
+        box-sizing: border-box;
+       }
+        .form-container .form input[type=text]:focus,  .form-container .form input[type=date]:focus,
+         .form-container .form select:focus {
+          border-color: white;
+       }
+       .form-container .form input[type=submit] {
+        border: 3px solid rgb(32, 157, 179);
+        background: whitesmoke;
+        color: black;
+        padding: 14px 20px;
+        margin: 2em 0;
+        cursor: pointer;
+        align-self: right; }
+       .form-container .form input[type=submit]:hover {
+        border-color: white;
+        background-color: white;
+        color: black; 
+      }
+   .trips-list {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: url(./fotografije/okean1.jpg);
+    background-repeat: repeat-x;
+    font-size: 20px;
+   }
+    .trips-list h3 {
+      margin-top: 0;
+     }
+     .trips-list .table {
+      width: 400px;
+      text-align: left; 
+    }
+      .trips-list .table th {
+        border-bottom: 2px solid black; 
+      }
+     .trips-list .filters {
+      font-size: 14px;
+      margin-top: 2em; 
+    }
+      .trips-list .filters a {
+        margin: 0.5em;
+        color: black;
+       }
+    .no-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px; 
+  }
+
+    h3 {
+      display: inline;
+      font-weight: normal;
+      color:black; 
+      align-items: center;
+    }

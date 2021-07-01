@@ -1,15 +1,21 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
 
 const Footer = () => {
+
+    const history = useHistory();
+  const handleClick = () => history.push('/');
+  const handleClick1 = () => history.push('/add');
+    
     return (
         <footer className="footer">
             <ul>
-            <li><button>Home</button></li>
+            <li><button type="button" onClick={handleClick}>Home</button></li>
             <li><button>Privacy Policy</button></li>  
             </ul>
 
             <ul>
-            <li><button>Book your flight</button></li>
+            <li><button type="button" onClick={handleClick1}>Book your next destination</button></li>
             <li><button>Visit us</button></li>  
             </ul>
 
