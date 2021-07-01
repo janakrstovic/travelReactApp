@@ -11,12 +11,10 @@ const Footer = () => {
         <footer className="footer">
             <ul>
             <li><button type="button" onClick={handleClick}>Home</button></li>
-            <li><button>Privacy Policy</button></li>  
             </ul>
 
             <ul>
             <li><button type="button" onClick={handleClick1}>Book your next destination</button></li>
-            <li><button>Visit us</button></li>  
             </ul>
 
         </footer>
